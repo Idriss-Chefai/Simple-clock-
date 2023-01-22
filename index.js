@@ -14,7 +14,7 @@
     function affiche() {
         date = new Date();
         let day = date.getDate();
-        let month = date.getMonth();
+        let month = date.getMonth()+1;
         let year = date.getFullYear();
         let hours = date.getHours();
         let minutes = date.getMinutes();
